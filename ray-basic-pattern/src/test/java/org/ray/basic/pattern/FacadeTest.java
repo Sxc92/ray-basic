@@ -1,8 +1,10 @@
-package org.ray.basic.pattern.facade;
+package org.ray.basic.pattern;
 
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.ray.basic.pattern.facade.Facade;
+import org.ray.basic.pattern.facade.FacadeImpl;
 import org.ray.basic.pattern.facade.bizSystem.MesSystem;
 import org.ray.basic.pattern.facade.bizSystem.MesSystemImpl;
 import org.ray.basic.pattern.facade.bizSystem.WmsSystem;
